@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "totalSms": 1000,
+    "totalEmail": 500,
+    "totalPush": 200,
+    "isActive": true,
+    "isDeleted": false,
+    "createdAt": 1569439185422,
+    "updatedAt": 1569439185422,
+    "createdBy": "Niyaz"
+  },
+  {
+    "id": 2,
+    "totalSms": 100,
+    "totalEmail": 100,
+    "totalPush": 0,
+    "isActive": true,
+    "isDeleted": false,
+    "createdAt": 1569439185422,
+    "updatedAt": 1569439185422,
+    "createdBy": "Niyaz"
+  },
+  {
+    "id": 3,
+    "totalSms": 2000,
+    "totalEmail": 0,
+    "totalPush": 100,
+    "isActive": true,
+    "isDeleted": false,
+    "createdAt": 1569439185422,
+    "updatedAt": 1569439185422,
+    "createdBy": "Niyaz"
+  }
+]

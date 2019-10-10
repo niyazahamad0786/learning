@@ -1,0 +1,23 @@
+spring:
+  kafka:
+    producer:
+      bootstrap-servers:
+        - kafka-1:19092
+        - kafka-2:29092
+        - kafka-3:39092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      retries: 3
+
+    consumer:
+      bootstrap-servers:
+        - kafka-1:19092
+        - kafka-2:29092
+        - kafka-3:39092
+      group-id: sample_group_v1
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      heartbeat-interval: 500
+      fetch-max-wait: 1000
+      max-poll-records: 1000
+

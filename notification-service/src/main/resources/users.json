@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "User 1",
+    "email": "user1@codematrix.com",
+    "phone": "90-000-000-01",
+    "isActive": true,
+    "isDeleted": false,
+    "createdAt": 1569439185422,
+    "updatedAt": 1569439185422,
+    "createdBy": "Niyaz"
+  },
+  {
+    "id": 1,
+    "name": "User 2",
+    "email": "user2@codematrix.com",
+    "phone": "90-000-000-02",
+    "isActive": true,
+    "isDeleted": false,
+    "createdAt": 1569439185422,
+    "updatedAt": 1569439185422,
+    "createdBy": "Niyaz"
+  },
+  {
+    "id": 1,
+    "name": "User 3",
+    "email": "user1@codematrix.com",
+    "phone": "90-000-000-03",
+    "isActive": true,
+    "isDeleted": false,
+    "createdAt": 1569439185422,
+    "updatedAt": 1569439185422,
+    "createdBy": "Niyaz"
+  }
+]

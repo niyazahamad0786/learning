@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "package": 3,
+    "price": 200,
+    "validity": 30,
+    "isActive": true,
+    "isDeleted": false,
+    "createdAt": 1569439185422,
+    "updatedAt": 1569439185422,
+    "createdBy": "Niyaz"
+  },
+  {
+    "id": 2,
+    "package": 2,
+    "price": 300,
+    "validity": 30,
+    "isActive": true,
+    "isDeleted": false,
+    "createdAt": 1569439185422,
+    "updatedAt": 1569439185422,
+    "createdBy": "Niyaz"
+  },
+  {
+    "id": 3,
+    "package": 1,
+    "price": 500,
+    "validity": 90,
+    "isActive": true,
+    "isDeleted": false,
+    "createdAt": 1569439185422,
+    "updatedAt": 1569439185422,
+    "createdBy": "Niyaz"
+  }
+]

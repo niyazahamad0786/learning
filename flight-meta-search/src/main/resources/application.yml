@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/flight
+    username: application
+    password: application
+    name: airline
+    hikari:
+      pool-name: airline
+      connection-timeout: 5000
+      maximum-pool-size: 200
+      auto-commit: false
+      leak-detection-threshold: 5000
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+  devtools:
+    add-properties: false

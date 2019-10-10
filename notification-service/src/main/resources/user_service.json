@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "user": 1,
+    "servicePurchased": 1,
+    "isActive": true,
+    "isDeleted": false,
+    "createdAt": 1569439185422,
+    "updatedAt": 1569439185422,
+    "createdBy": "Niyaz"
+  },
+  {
+    "id": 2,
+    "user": 2,
+    "servicePurchased": 2,
+    "isActive": true,
+    "isDeleted": false,
+    "createdAt": 1569439185422,
+    "updatedAt": 1569439185422,
+    "createdBy": "Niyaz"
+  },
+  {
+    "id": 3,
+    "user": 3,
+    "servicePurchased": 3,
+    "isActive": true,
+    "isDeleted": false,
+    "createdAt": 1569439185422,
+    "updatedAt": 1569439185422,
+    "createdBy": "Niyaz"
+  }
+]
