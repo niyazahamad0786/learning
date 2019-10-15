@@ -1,19 +1,39 @@
 package com.codematrix.flight.dto;
 
 
-import com.codematrix.flight.entities.Schedule;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 import java.time.LocalDate;
 
 @Getter
 @Setter
+@RequiredArgsConstructor
+@NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class ScheduleDto extends Schedule {
+@ToString
+public class ScheduleDto {
 
-    @JsonProperty("dep_date")
+    @NonNull
+    private String departureAirportCode;
+
+    @NonNull
+    private String arrivalAirportCode;
+
+    @NonNull
+    private String providerCode;
+
+    @NonNull
+    private Double price;
+
+    @NonNull
+    @JsonIgnore
     private LocalDate departureDate;
+
 }

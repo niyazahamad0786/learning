@@ -28,5 +28,6 @@ public class Schedule extends BaseEntity {
     @NonNull
     private String providerCode;
 
+    @NonNull
     private BigDecimal basePrice;
 }

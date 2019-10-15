@@ -6,7 +6,9 @@
         <module>problem-solving</module>
         <module>kafka-demo</module>
         <module>notification-service</module>
+        <module>flight-meta-search</module>
     </modules>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -21,10 +23,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>learning</name>
     <description>Demo project for Spring Boot</description>
-
-    <properties>
-        <java.version>11</java.version>
-    </properties>
 
     <dependencies>
         <dependency>
